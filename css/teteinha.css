@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+*{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#titulo{
+
+    background-color: rgb(219, 20, 20);  
+    margin: auto;
+    width: 100%;
+    border-radius: 15px;
+    color: rgb(255, 251, 5);
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 30px;
+    font-weight: 800;
+    font-family: 'Fredoka', sans-serif;
+}
+#fundo{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: red;  
+    margin: auto;
+    width: 98%;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 2px rgba(34, 34, 34, 0.336), 0 0 5px 2px rgba(0, 0, 0, 0.398); 
+    padding:10px; 
+    display: flex;    
+    
+}
+label{
+    margin-left: 15px;
+}
+.exbicaoInput{
+
+    width: 50% ;
+    height: 500px;
+    background-color: rgb(8, 3, 250);  
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow:inset 0px 0px 5px 0px gray;
+    font-size: 1em;
+    font-weight: 800;
+    border-radius: 10px;
+ 
+    
+}
+.exbicaoPrenchido{
+    width: 50% ;
+    height: 500px;
+    background-color: rgb(3, 85, 3); 
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    overflow-y: auto !important;
+    overflow-x: hidden !important; 
+    border-radius: 10px;
+    
+}
+
+
+select, input{
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    margin-left: 15px;
+    width: 600px;
+    padding: 3px;
+    caret-color: red;
+    border: solid 2px yellow;
+}
+
+select{
+    width: 610px;
+}
+input[type="radio"]{
+
+    margin-top: 5px;
+    width: 10px;
+    
+}
+.labelSN{
+    font-size: 12px;
+} 
+.add{
+    color: rgb(247, 247, 247);
+    background-color: rgb(228, 50, 50);
+    border-radius: 15px;
+    border: none;
+    padding: 15px 40px;
+    margin-left: 300px;
+    cursor: pointer;
+    font-weight: 800;
+    box-shadow: 0 2px 2px 2px rgba(34, 34, 34, 0.336);
+}
+.add:hover{
+    background-color: brown;
+    
+    
+}
+
+.card{
+    width: 90%;
+    height: 150px;
+    margin: 20px;
+    padding: 5px;
+    box-shadow: 0 5px 10px 2px rgba(34, 34, 34, 0.336), 0 0 5px 2px rgba(0, 0, 0, 0.398); 
+    display: flex;
+    flex-direction: row;
+    background-color: #fbfbfb;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: 700;
+    
+}
+.img{
+    width: 90px;
+    height: 90px;
+    margin: auto 20px auto;
+    padding: 5px;
+    border-radius: 5px;
+
+    
+}
+.img img{
+    width: 90%;
+    height: 90px;
+    border: 2px solid black;
+
+}
+#card-info{
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 5px 2px gray;  
+}
+h4{
+    margin: 5px;
+}
+h4:last-child{
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    box-shadow: 0 0 4px 0 rgba(34, 34, 34, 0.336);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    #fundo{
+
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        height: 100%;
+    }
+    .titulo{
+        width: 90%;
+        
+    }
+    .exbicaoInput, .exbicaoPrenchido{
+        width: 100%;
+        
+    }
+    .add{
+        margin: auto;
+    }
+
+}
